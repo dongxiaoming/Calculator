@@ -59,9 +59,9 @@
                                                 <rect key="frame" x="20" y="196" width="50" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.54883497830000005" green="0.66714003460000004" blue="0.69574940200000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="cos"/>
+                                                <state key="normal" title="restore"/>
                                                 <connections>
-                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ruG-ti-P0u"/>
+                                                    <action selector="restore" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyz-3k-oZ2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dL-yc-Rgy">
@@ -194,9 +194,9 @@
                                                 <rect key="frame" x="20" y="137" width="50" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.54883497830000005" green="0.66714003460000004" blue="0.69574940200000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="√"/>
+                                                <state key="normal" title="save"/>
                                                 <connections>
-                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pjH-5X-qJU"/>
+                                                    <action selector="save" destination="BYZ-38-t0r" eventType="touchUpInside" id="1lu-lK-k81"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bF-eH-3XQ">
